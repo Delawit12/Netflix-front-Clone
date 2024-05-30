@@ -1,0 +1,49 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    height: 30px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.7s;
+    transition-timing-function: ease-in;
+}
+.nav__black {
+    background-color: #111;
+}
+.nav__logo {
+    position: fixed;
+    left: 20px;
+    width: 80px;
+    object-fit: contain;
+}
+.nav__avatar {
+    position: fixed;
+    right: 20px;
+    width: 30px;
+    object-fit: contain;
+} 
+
+.joinbtn{
+    margin-right: 100px;
+    width: 200px;
+    font-weight: 300;
+    background-color: #E62E2D;
+    border-radius: 5px;
+    color: white;
+    height: 30px; /* Increased height for a more prominent appearance */ /* Increased font weight for a bolder look */
+    background-color: #e50914; /* Netflix red color */
+    border: none; /* Removed border */
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase; /* Uppercase text */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Added transition effect */  
+}
+
+.links_to{
+    color: white;
+    text-decoration: none;
+}

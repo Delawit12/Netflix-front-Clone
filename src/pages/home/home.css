@@ -1,0 +1,13 @@
+.nextbutton{
+color: white !important;
+text-align: center !important;
+}
+.nextbutton:hover{
+color: rgb(53, 20, 241) !important;
+}
+
+.leftside{
+    text-align: end;
+    margin: 20px;
+    padding: 20px;
+}
